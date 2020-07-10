@@ -2,11 +2,11 @@ from tkinter import *
 from tkinter.ttk import *
 wind=Tk()
 wind.geometry('1920x1080')
-pictt=PhotoImage(file='/home/dwas/Downloads/app.png')
+pictt=PhotoImage(file='app.png')
 photoimage1 = pictt.subsample(4, 4) 
-pict1=PhotoImage(file='/home/dwas/Downloads/coc.png')
+pict1=PhotoImage(file='coc.png')
 phtimg2=pict1.subsample(4,4)
-pict2=PhotoImage(file='/home/dwas/Downloads/bs.png')
+pict2=PhotoImage(file='bs.png')
 pict2sam=pict2.subsample(4,4)
 
 def clixk():
